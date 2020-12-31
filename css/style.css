@@ -1,0 +1,117 @@
+head,body{
+
+    height:100vh;
+    background-color:rgb(37, 37, 34);
+    
+
+}
+.header{
+    height : 20vh;
+    width : 100%;
+    background-image: url("/images/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+
+}
+#left-Banner{
+    background-color : rgb(42, 39, 44);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:10px;
+}
+#left-Banner.light{
+    background-color: rgb(107, 104, 104);
+}
+
+#main{
+    height : 100%;
+    background-color: rgb(15, 15, 15);
+    overflow:scroll;
+    
+    
+}
+#main.light{
+    background-color: white;
+}
+
+nav li{
+    font-size: 25px;
+}
+nav{
+    background-color: rgb(28, 4, 43);
+    border-bottom: 3px solid rgb(80, 9, 80);
+    box-shadow: 5px black;
+}
+
+
+
+
+
+    .searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    background-color: #353b48;
+    border-radius: 30px;
+    padding: 10px;
+    }
+
+    .search_input{
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 200px;
+    caret-color:red;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_icon{
+    background: white;
+    color: #e74c3c;
+    }
+
+    .search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    text-decoration:none;
+    }
+    /* width */
+#main::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  #main::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  #main::-webkit-scrollbar-thumb {
+    background: purple; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  #main::-webkit-scrollbar-thumb:hover {
+    background: #6a0683; 
+  }
